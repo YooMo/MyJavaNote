@@ -16,7 +16,7 @@ int indexof (To find the char or string);
 int lastindexof(To find the char or string 反向查找正向返回索引)
 ```
 
-2. substring
+2.substring
 ---
 
 | Function | Description |
