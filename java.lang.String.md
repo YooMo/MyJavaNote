@@ -33,3 +33,4 @@ String substring(4,6)
 boolean startswith(某个字符串);
 boolean endswith (某个字符串);
 ```
+QAQ
