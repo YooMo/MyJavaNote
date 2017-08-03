@@ -10,10 +10,17 @@ StringBuilder , StringBuffer
 ---
 另一种高效率构建字符串的方式，与StringBuffer相比线程安全（因为加了一把＂锁＂）但占用内存更大
 
-# 注意：　他们俩的＂特性＂虽然有所出入，但是他们的使用方法是相同的
-## 他们俩所调用的方法　：　
-### 1. append : 向StringBulider或StringBuffer所创建的对象内添加字符串或更多
+**注意：　他们俩的＂特性＂虽然有所出入，但是他们的使用方法是相同的**
+
+| Function | Description |
+|:- |:- |
+| void append(String str) | 向StringBulider或StringBuffer所创建的对象内添加字符串或更多 |
+| 花式重载 | 介绍同上 |
+
+***
+
 #### 例
+
 ```java
 class Main{
     public static void main(String args[]){
@@ -22,7 +29,13 @@ class Main{
     }
 }
 ```
-### 2. delete : 向StringBuilder或StringBuffer所创建的对象中删除几索引到几索引．
+
+***
+
+| Function | Description |
+|:- |:- |
+| void delete (int start,int end) | 从StringBuilder或StringBuffer所创建的对象中删除从索引 `start` 到索引 `end` 的字符串．
+
 #### 例
 ```java
 class Main{
@@ -33,7 +46,12 @@ class Main{
     }
 }
 ```
-### length : 向StringBuilder或StringBuffer所创建的对象中取该对象的字符串长度并返回一个int值．
+
+***
+
+| Function | Description |
+|:- |:- |
+| int length() | 返回StringBuilder或StringBuffer对象中该对象的字符串长度 |
 #### 例
 ```java
 class Main{
