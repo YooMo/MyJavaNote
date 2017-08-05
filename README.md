@@ -1,2 +1,3 @@
 # MyJavaNote
-(care zh_cn )A note abou java by a noob(English noob too)
+
+某菜鸡的 Java 学习笔记
